@@ -1,0 +1,48 @@
+# Entorno virtual
+venv/
+env/
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Modelos y pesos (pueden ser muy pesados)
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# Variables de entorno y secretos
+.env
+.env.*
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
