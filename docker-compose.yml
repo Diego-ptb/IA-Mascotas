@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  ia-mascotas:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
